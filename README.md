@@ -18,8 +18,8 @@ composer require anburocky3/unit-conversions
 ## Usage
 
 ```php
-$skeleton = new Anbu\UnitConversions();
-echo $skeleton->echoPhrase('Hello, Anbu!');
+$lbs = Weight::fromKilograms(100)->toLbs();
+echo $lbs;
 ```
 
 ## Testing
