@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "anbu/unit-conversions",
+    "description": "Simple unit conversion PHP package",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "anbu",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/anbu/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_homepage",
+            "name": "Anbu",
+            "email": "anbuceo@gmail.com",
+            "homepage": "anbuselvanrocky.net",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Anbu\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Anbu\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,11 +47,11 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/:vendor_name"
+            "url": "https://github.com/sponsors/anbu"
         },
         {
             "type": "other",
-            "url": ":author_homepage"
+            "url": "anbuselvanrocky.net"
         }
     ]
 }
